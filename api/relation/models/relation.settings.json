@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "relations",
+  "info": {
+    "name": "relation",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "asdfasd": {
+      "plugin": "users-permissions",
+      "collection": "user"
+    }
+  }
+}
